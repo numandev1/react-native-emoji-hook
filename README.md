@@ -1,6 +1,6 @@
 <!-- Title -->
 <p align="center">
-<img src="/assets/icon.png" alt="alt text" width="300"/>
+<img src="/assets/icon.jpg" alt="alt text" width="300" style="padding-top: 16px; padding-bottom: 16px;" />
 </p>
 
 <!-- Header -->
@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <img height="450" src="/assets/cover.jpg">
+  <img width="350" src="/assets/demo.gif">
 </p>
 
 ## Installation
@@ -23,12 +23,14 @@ npm install react-native-emoji-hook
 ## Usage
 
 ```js
-import useEmoji from 'react-native-emoji-hook';
+import useEmoji, { emojify } from 'react-native-emoji-hook';
 
 // ...
 
 const [text, setText] = useEmoji();
 ```
+
+**emojify** function is not hook it is basically text to emoji text converter. you can use this for making own custom useState.
 
 ## Example Code
 

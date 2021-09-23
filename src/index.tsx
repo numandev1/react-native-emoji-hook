@@ -12,3 +12,4 @@ const useEmoji: any = () => {
 };
 
 export default useEmoji;
+export { emojify };
