@@ -1,6 +1,6 @@
 {
   "name": "react-native-emoji-hook",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "write emoji by emoji code",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -34,7 +34,16 @@
   "keywords": [
     "react-native",
     "ios",
-    "android"
+    "android",
+    "emoji",
+    "facebook",
+    "hook",
+    "facebook-emoji",
+    "emojis",
+    "textinput",
+    "emoji-textinput",
+    "editor",
+    "emoji-editor"
   ],
   "repository": "https://github.com/nomi9995/react-native-emoji-hook",
   "author": "Muhammad Numan <muhammadnuman70@gmail.com> (https://github.com/nomi9995)",
@@ -149,5 +158,6 @@
         }
       ]
     ]
-  }
+  },
+  "dependencies": {}
 }
