@@ -1,6 +1,6 @@
 {
   "name": "react-native-emoji-hook",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "write emoji by emoji code",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
