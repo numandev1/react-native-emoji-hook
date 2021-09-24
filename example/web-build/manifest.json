@@ -1,0 +1,8 @@
+{
+  "description": "Example app for react-native-emoji-hook",
+  "display": "standalone",
+  "lang": "en",
+  "name": "react-native-emoji-hook-example",
+  "short_name": "react-native-emoji-hook-example",
+  "start_url": "/?utm_source=web_app_manifest"
+}

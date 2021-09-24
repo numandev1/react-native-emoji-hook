@@ -1,12 +1,12 @@
-import { useState } from 'react';
+import { useState, useCallback } from 'react';
 import { emojify } from './utils/index';
 
 const useEmoji: any = () => {
   const [text, setText] = useState('');
 
-  const setTextHandler = (txt: string) => {
+  const setTextHandler = useCallback((txt: string) => {
     setText(emojify(txt));
-  };
+  }, []);
 
   return [text, setTextHandler];
 };

@@ -14,6 +14,8 @@
   <img width="350" src="/assets/demo.gif">
 </p>
 
+# [Demo](https://distracted-wilson-9627b2.netlify.app/)
+
 ## Installation
 
 ```sh
